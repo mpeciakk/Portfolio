@@ -1,0 +1,19 @@
+.app {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.app-container {
+  width: 100%;
+  height: max-content;
+  padding: 128px;
+  background-color: black;
+}
+
+@media screen and (max-width: 850px) {
+  .app-container {
+    padding: 16px;
+  }
+}
